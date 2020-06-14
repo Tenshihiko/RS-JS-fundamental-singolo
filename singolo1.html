@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -28,46 +28,51 @@
     <main>
         <section id="home" class="home">
             <div class="container">
-                <h2 class="visible-hidden">Example Gallery</h2>
-                <div class="gallery home__gallery"></div>
+                <div class="gallery home__gallery">
+                    <h2 class="visible-hidden">Example Gallery</h2>
+                    <div class="gallery__arrow gallery__arrow-left"></div>
+                    <div class="gallery__arrow gallery__arrow-right"></div>
+                    <ul>
+                        <li>
+                            <img src="assets/gallery/photo1.png" />
+                        </li>
+                    </ul>
+                </div>
+            </div>
             </div>
         </section>
         <section id="services" class="services">
             <div class="container">
-                <h2>Out services</h2>
+                <h2>Our Services</h2>
                 <p>
                     Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
                 </p>
-                <article class="service-item services-design">
-                    <img class="service-item__icon" />
-                    <h3 class="service-item__title">Custom Design</h3>
-                    <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
-                </article>
-                <article class="service-item services-ideas">
-                    <img class="service-item__icon" />
-                    <h3 class="service-item__title">Invocative Ideas</h3>
-                    <p>Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
-                </article>
-                <article class="service-item services-love">
-                    <img class="service-item__icon" />
-                    <h3 class="service-item__title">Love Is The Aswer</h3>
-                    <p>Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
-                </article>
-                <article class="service-item services-layout">
-                    <img class="service-item__icon" />
-                    <h3 class="service-item__title">Responsive Layout</h3>
-                    <p>Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo.</p>
-                </article>
-                <article class="service-item services-support">
-                    <img class="service-item__icon" />
-                    <h3 class="service-item__title">24/7 Support</h3>
-                    <p>Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem .</p>
-                </article>
-                <article class="service-item services-star">
-                    <img class="service-item__icon" />
-                    <h3 class="service-item__title">Feel Like A Star</h3>
-                    <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
-                </article>
+                <div class="services__list">
+                    <article class="service-item services-item__theme_design">
+                        <h3>Custom Design</h3>
+                        <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
+                    </article>
+                    <article class="service-item services-item__theme_ideas">
+                        <h3>Invocative Ideas</h3>
+                        <p>Quisque luctus, quam eget molestie commodo, lacus purus cursus purus, nec rutrum tellus dolor id lorem.</p>
+                    </article>
+                    <article class="service-item services-item__theme_love">
+                        <h3>Love Is The Aswer</h3>
+                        <p>Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet turpis, et consequat felis. Quisque condimentum.</p>
+                    </article>
+                    <article class="service-item services-item__theme_layout">
+                        <h3>Responsive Layout</h3>
+                        <p>Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas blandit nunc ligula. Praesent elit leo.</p>
+                    </article>
+                    <article class="service-item services-item__theme_support">
+                        <h3>24/7 Support</h3>
+                        <p>Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi. Nulla a sem erat. Pellentesque egestas venenatis lorem .</p>
+                    </article>
+                    <article class="service-item services-item__theme_star">
+                        <h3>Feel Like A Star</h3>
+                        <p>Quisque hendrerit purus dapibus, ornare nibh vitae, viverra nibh. Fusce vitae aliquam tellus.</p>
+                    </article>
+                </div>
             </div>
         </section>
     </main>
