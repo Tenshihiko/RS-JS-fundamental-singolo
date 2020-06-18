@@ -103,3 +103,8 @@ dist
 # TernJS port file
 .tern-port
 
+<<<<<<< HEAD
+=======
+/.vs
+/*.sln
+>>>>>>> f1be68e... refactor: change html for BEM
