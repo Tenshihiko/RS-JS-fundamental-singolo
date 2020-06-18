@@ -1,0 +1,20 @@
+{
+    "name": "singolo",
+    "version": "1.0.0",
+    "description": "singolo",
+    "main": "index.html",
+    "scripts": {
+        "style": "sass singolo/style.scss singolo/style.css",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Tenshihiko/singolo.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Tenshihiko/singolo/issues"
+    },
+    "homepage": "https://github.com/Tenshihiko/singolo#readme"
+}
