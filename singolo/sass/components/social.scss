@@ -1,0 +1,33 @@
+.social {
+    padding: 5px;
+
+    ul li {
+        display: inline-block;
+    }
+
+    &__link {
+        padding: 2px;
+    }
+
+    &__icon {
+        width: 32px;
+        height: 32px;
+        display: block;
+
+        &_facebook {
+            background-image: url(./assets/socials/ico-facebook.svg);
+        }
+
+        &_google {
+            background-image: url(./assets/socials/ico-google-plus.svg);
+        }
+
+        &_twitter {
+            background-image: url(./assets/socials/ico-twitter.svg);
+        }
+
+        &_linkedin {
+            background-image: url(./assets/socials/ico-linkedin.svg);
+        }
+    }
+}

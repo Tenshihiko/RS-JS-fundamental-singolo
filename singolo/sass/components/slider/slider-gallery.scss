@@ -1,0 +1,31 @@
+.slider-gallery {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    &__arrow {
+        display: inline-block;
+        background-image: url(./assets/gallery/arrow-left.svg);
+        opacity: 0.2;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 5;
+        width: 20px;
+    }
+
+    &__arrow:hover {
+        opacity: 0.35;
+    }
+
+    &__arrow-right {
+        right: 0px;
+        transform: scale(-1, 1);
+    }
+
+    & ul li img {
+        width: 100%;
+    }
+}

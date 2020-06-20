@@ -1,14 +1,17 @@
-$color-brand: #f06c64;
+$color-brand-base: #f06c64;
+$color-brand-border: #ea676b;
 $color-dark-background: #2d303a;
 $color-dark-border: #323746;
 $color-light-background: #f2f2f2;
 $color-light-border: #ffffff;
 $color-text-onbrand: #f0d8d9;
-$color-text: #666d89;
-$color-form-input-brand: #d6564f;
+$color-section-header: #666d89;
+$color-section-description: #767e9e;
+$color-brand-input: #d6564f;
+$color-brand-input-placeholder: #f48c8f;
+$color-brand-text: #f0d8d9;
 $color-btn-submit: #fbc65f;
 $color-btn-submit-text: #886a30;
-$color-footer-text: #767e9e;
 $color-header-text: #ffffff;
 
 // $font-size: 1.6rem;
@@ -24,4 +27,3 @@ $screen-sm: 480px;
 $screen-md: 768px;
 $screen-lg: 992px;
 $screen-xl: 1200px;
-

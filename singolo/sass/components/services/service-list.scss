@@ -1,0 +1,12 @@
+.services {
+    background-color: $color-light-background;
+    border-bottom-color: $color-light-border;
+    text-align: justify;
+
+    &__list {
+        padding-top: 20px;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+    }
+}

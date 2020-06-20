@@ -1,0 +1,25 @@
+.site-header {
+    background-color: $color-dark-background;
+    height: 95px;
+    border-bottom: 6px solid $color-dark-border;
+    color: $color-header-text;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__logo {
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 25px;
+    }
+
+    &__nav {
+        justify-self: left;
+        display: inline-block;
+        font-size: 12px;
+        margin-top: 6px; /*Как обойти?*/
+    }
+}

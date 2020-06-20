@@ -1,0 +1,39 @@
+.service-item {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    max-height: 150px;
+    min-width: 33%;
+    flex-basis: 33%;
+    padding-left: 80px;
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+
+    p {
+        max-height: 80px;
+    }
+
+    &__design {
+        background-image: url(./assets/services_icons/services-item-1.svg);
+    }
+
+    &__ideas {
+        background-image: url(./assets/services_icons/services-item-2.svg);
+    }
+
+    &__love {
+        background-image: url(./assets/services_icons/services-item-3.svg);
+    }
+
+    &__layout {
+        background-image: url(./assets/services_icons/services-item-4.svg);
+    }
+
+    &__support {
+        background-image: url(./assets/services_icons/services-item-5.svg);
+    }
+
+    &__star {
+        background-image: url(./assets/services_icons/services-item-6.svg);
+    }
+}

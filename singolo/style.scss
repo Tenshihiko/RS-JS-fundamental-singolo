@@ -4,6 +4,24 @@
 @import './sass/base/reset_css.scss';
 @import './sass/base/base.scss';
 
-@import './sass/components/header.scss';
-@import './sass/components/logo.scss';
-@import './sass/components/nav.scss';
+@import './sass/components/section.scss';
+@import './sass/components/article.scss';
+@import './sass/components/social.scss';
+
+@import './sass/components/header/header.scss';
+@import './sass/components/header/logo.scss';
+@import './sass/components/header/nav.scss';
+
+@import './sass/components/slider/home.scss';
+@import './sass/components/slider/slider-gallery.scss';
+
+@import './sass/components/services/service-list.scss';
+@import './sass/components/services/service-item.scss';
+
+@import './sass/components/portfolio/portfolio.scss';
+
+@import './sass/components/about/about.scss';
+
+@import './sass/components/contact/contact.scss';
+
+@import './sass/components/footer/footer.scss';
