@@ -1,9 +1,9 @@
 .slider-gallery {
     position: relative;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    max-height: 605px;
 
     &__arrow {
+        cursor: pointer;
         display: inline-block;
         background-image: url(./assets/gallery/arrow-left.svg);
         opacity: 0.2;

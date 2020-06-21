@@ -1,2 +1,23 @@
 .about {
 }
+
+.employee-list {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.employee {
+    &__photo {
+        width: 100%;
+    }
+
+    &__name {
+        padding-top: 15px;
+    }
+
+    &__social {
+        padding-top: 15px;
+    }
+}
