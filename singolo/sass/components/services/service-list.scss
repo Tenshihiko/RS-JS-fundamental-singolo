@@ -5,8 +5,17 @@
 
     &__list {
         padding-top: 20px;
-        display: flex;
-        flex-flow: wrap;
-        justify-content: space-between;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+
+        @media (max-width: 1019px) {
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 50px;
+        }
+
+        @media (max-width: 767px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
     }
 }

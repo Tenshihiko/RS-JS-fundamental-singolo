@@ -4,8 +4,7 @@
     "description": "singolo",
     "main": "index.html",
     "scripts": {
-        "style": "sass style.scss style.css",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "style": "sass style.scss style.css"
     },
     "repository": {
         "type": "git",

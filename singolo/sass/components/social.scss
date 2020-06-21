@@ -1,12 +1,10 @@
 .social {
-    padding: 5px;
-
     ul li {
         display: inline-block;
     }
 
-    &__link {
-        padding: 2px;
+    ul li:not(:first-child) {
+        margin-left: 5px;
     }
 
     &__icon {

@@ -1,0 +1,24 @@
+.tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+
+    &__item {
+        cursor: pointer;
+        border: 1px solid;
+        border-radius: 5px;
+        padding: 5px 7px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 12px;
+        margin-bottom: 5px;
+        margin-right: 10px;
+
+        &:hover,
+        &_chosen {
+            color: #dedede;
+            border-color: #bbbbbb;
+        }
+    }
+}

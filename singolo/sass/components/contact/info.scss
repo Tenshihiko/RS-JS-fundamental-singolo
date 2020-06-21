@@ -1,0 +1,33 @@
+.info {
+    padding-top: 0px;
+    &.article {
+        .article__header {
+            padding-top: 0px;
+        }
+    }
+
+    &__description {
+        margin-bottom: 15px;
+    }
+
+    &__record {
+        padding-left: 20px;
+        font-size: 12px;
+        line-height: 22px;
+        background-position: 0 center;
+        background-repeat: no-repeat;
+
+        &_adress {
+            background-image: url(./assets/contacts/ico-location.svg);
+            background-position: 3px center;
+        }
+
+        &_phone {
+            background-image: url(./assets/contacts/ico-phone.svg);
+        }
+
+        &_email {
+            background-image: url(./assets/contacts/ico-mail.svg);
+        }
+    }
+}

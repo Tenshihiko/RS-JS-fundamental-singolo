@@ -12,7 +12,8 @@
 
 <body>
     <header class="site-header">
-        <div class="container">
+        <div class="container site-header__container">
+            <div class="site-header__burger"></div>
             <h1 class="logo site-header__logo"><a href="#"><span class="logo__name">Singolo</span><span
                         class="logo__asterisk">*</span></a></h1>
             <nav class="nav site-header__nav">
@@ -27,7 +28,7 @@
         </div>
     </header>
     <main>
-        <section id="home" class="home section section_maincolor_brand">
+        <section id="home" class="anchored home section section_maincolor_brand">
             <div class="container">
                 <h2 class="section__header visible-hidden">Example Gallery</h2>
                 <div class="section-content slider-gallery">
@@ -43,7 +44,7 @@
                 </div>
             </div>
         </section>
-        <section id="services" class="services section section_maincolor_light">
+        <section id="services" class="anchored services section section_maincolor_light">
             <div class="container">
                 <h2 class="section__header">Our Services</h2>
                 <p class="section__description">
@@ -52,37 +53,42 @@
                     tortor mauris condimentum nibh.
                 </p>
                 <div class="section__content services__list">
-                    <article class="article service-item service-item__design">
+                    <article class="article service-item service-item_design">
                         <h3 class="article__header">Custom Design</h3>
-                        <p class="article__description">Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam
+                        <p class="article__description service-item__description">Curabitur vestibulum eget mauris quis
+                            laoreet. Phasellus in quam
                             laoreet, viverra lacus ut,
                             ultrices velit.</p>
                     </article>
-                    <article class="article service-item service-item__ideas">
+                    <article class="article service-item service-item_ideas">
                         <h3 class="article__header">Invocative Ideas</h3>
-                        <p class="article__description">Quisque luctus, quam eget molestie commodo, lacus purus cursus
+                        <p class="article__description service-item__description">Quisque luctus, quam eget molestie
+                            commodo, lacus purus cursus
                             purus, nec rutrum tellus dolor
                             id lorem.</p>
                     </article>
-                    <article class="article service-item service-item__love">
+                    <article class="article service-item service-item_love">
                         <h3 class="article__header">Love Is The Aswer</h3>
-                        <p class="article__description">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet
+                        <p class="article__description service-item__description">Nulla sed nunc et tortor luctus
+                            faucibus. Morbi at aliquet
                             turpis, et consequat felis.
                             Quisque condimentum.</p>
                     </article>
-                    <article class="article service-item service-item__layout">
+                    <article class="article service-item service-item_layout">
                         <h3 class="article__header">Responsive Layout</h3>
-                        <p class="article__description">Sed porttitor placerat rhoncus. In at nunc tellus. Maecenas
+                        <p class="article__description service-item__description">Sed porttitor placerat rhoncus. In at
+                            nunc tellus. Maecenas
                             blandit nunc ligula. Praesent
                             elit leo.</p>
                     </article>
-                    <article class="article service-item service-item__support">
+                    <article class="article service-item service-item_support">
                         <h3 class="article__header">24/7 Support</h3>
-                        <p class="article__description">Vivamus vel quam lacinia, tincidunt dui non, vehicula nisi.
+                        <p class="article__description service-item__description">Vivamus vel quam lacinia, tincidunt
+                            dui non, vehicula nisi.
                             Nulla a sem erat. Pellentesque
                             egestas venenatis lorem .</p>
                     </article>
-                    <article class="article service-item service-item__star">
+                    <article class="article service-item service-item_star">
                         <h3 class="article__header">Feel Like A Star</h3>
                         <p class="article__description">Quisque hendrerit purus dapibus, ornare nibh vitae, viverra
                             nibh. Fusce vitae aliquam tellus.
@@ -91,7 +97,7 @@
                 </div>
             </div>
         </section>
-        <section id="portfolio" class="portfolio section section_maincolor_dark">
+        <section id="portfolio" class="anchored portfolio section section_maincolor_dark">
             <div class="container">
                 <h2 class="section__header">Portfolio</h2>
                 <p class="section__description">Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget
@@ -100,10 +106,8 @@
                     <div class="portfolio__tags">
                         <ul class="tags-list">
                             <li class="tags-list__item tags-list__item_chosen">All</li>
-                            <li class="tags-list__item">Web</li>
-                            <li class="tags-list__item">Design</li>
-                            <li class="tags-list__item">Graphic</li>
-                            <li class="tags-list__item">Design</li>
+                            <li class="tags-list__item">Web Design</li>
+                            <li class="tags-list__item">Graphic Design</li>
                             <li class="tags-list__item">Artwork</li>
                         </ul>
                     </div>
@@ -144,11 +148,17 @@
                         <div class="portfolio__item">
                             <img src="./assets/portfolio/portfolio-12.png" />
                         </div>
+                        <div class="portfolio__item">
+                            <img src="./assets/portfolio/portfolio-11.png" />
+                        </div>
+                        <div class="portfolio__item">
+                            <img src="./assets/portfolio/portfolio-12.png" />
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section id="about" class="about section  section_maincolor_light">
+        <section id="about" class="anchored about section  section_maincolor_light">
             <div class="container">
                 <h2 class="section__header">About Us</h2>
                 <p class="section__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis
@@ -156,13 +166,14 @@
                     dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
                 <div class="section__content">
                     <div class="employee-list">
-                        <article class="article">
-                            <img alt="Employee photo: Adam Jensesn" src="./assets//employees/photo-1.jpg" />
-                            <h3 class="article__header">Adam Jensesn</h3>
+                        <article class="article employee">
+                            <img class="employee__photo" alt="Employee photo: Adam Jensen"
+                                src="./assets//employees/photo-1.jpg" />
+                            <h3 class="article__header employee__name">Adam Jensen</h3>
                             <p class="article__description">Quisque luctus, quam eget molestie commodo, lacus purus
                                 cursus purus, nec rutrum tellus
                                 dolor id lorem.</p>
-                            <div class="social">
+                            <div class="social employee__social">
                                 <ul>
                                     <li><a class="social__link" href="./#"><i
                                                 class="social__icon social__icon_facebook"></i></a>
@@ -177,13 +188,14 @@
                                 </ul>
                             </div>
                         </article>
-                        <article class="article">
-                            <img alt="Employee photo: Desmond Miles" src="./assets//employees/photo-2.jpg" />
-                            <h3 class="article__header">Desmond Miles</h3>
+                        <article class="article empployee">
+                            <img class="employee__photo" alt="Employee photo: Desmond Miles"
+                                src="./assets//employees/photo-2.jpg" />
+                            <h3 class="article__header employee__name">Desmond Miles</h3>
                             <p class="article__description">Curabitur vestibulum eget mauris quis laoreet. Phasellus in
                                 quam laoreet, viverra lacus
                                 ut, ultrices velit.</p>
-                            <div class="social">
+                            <div class="social employee__social">
                                 <ul>
                                     <li><a class="social__link" href="./#"><i
                                                 class="social__icon social__icon_facebook"></i></a>
@@ -198,13 +210,14 @@
                                 </ul>
                             </div>
                         </article>
-                        <article class="article">
-                            <img alt="Employee photo: Scolara Visari" src="./assets//employees/photo-3.jpg" />
-                            <h3 class="article__header">Scolara Visari</h3>
+                        <article class="article employee">
+                            <img class="employee__photo" alt="Employee photo: Scolara Visari"
+                                src="./assets//employees/photo-3.jpg" />
+                            <h3 class="article__header employee__name">Scolara Visari</h3>
                             <p class="article__description">Nulla sed nunc et tortor luctus faucibus. Morbi at aliquet
                                 turpis, et consequat felis.
                                 Quisque condimentum.</p>
-                            <div class="social">
+                            <div class="social employee__social">
                                 <ul>
                                     <li><a class="social__link" href="./#"><i
                                                 class="social__icon social__icon_facebook"></i></a>
@@ -223,33 +236,40 @@
                 </div>
             </div>
         </section>
-        <section id="contact" class="contact section section_maincolor_brand">
+        <section id="contact" class="anchored contact section section_maincolor_brand">
             <div class="container">
                 <h2 class="section__header">Get a Quote</h2>
                 <p class="section__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis
                     mollis, non commodo luctus,
                     nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
                     tortor mauris condimentum nibh.</p>
-                <div class="contact__content section__description">
-                    <form method="post" class="contact__form">
-                        <input type="text" name="name" placeholder="Name (required)" required />
-                        <input type="email" name="email" placeholder="Email (required)" required />
-                        <input type="text" name="subject" placeholder="Subject " />
-                        <textarea name="description" placeholder="Describe your project in detail..."></textarea>
-                        <button type="submit">Send</button>
+                <div class="contact__content">
+                    <form method="post" class="contact__form form">
+                        <input type="text" class="form__input form__input_oneline" name="name"
+                            placeholder="Name (required)" required />
+                        <input type="email" class="form__input form__input_oneline" name="email"
+                            placeholder="Email (required)" required />
+                        <input type="text" class="form__input form__input_oneline" name="subject"
+                            placeholder="Subject " />
+                        <textarea class="form__input form__input_multiline" name="description"
+                            placeholder="Describe your project in detail..."></textarea>
+                        <button class="form__btn form__btn_submit" type="submit">Send</button>
                     </form>
-                    <article class="article contact__info">
+                    <article class="article contact__info info">
                         <h3 class="article__header">Contact Information</h3>
-                        <p class="article__description">Quisque hendrerit purus dapibus, ornare nibh vitae, viver­ra
+                        <p class="article__description info__description">Quisque hendrerit purus dapibus, ornare nibh
+                            vitae, viver­ra
                             nibh. Fusce vitae aliquam
                             tellus. Proin sit amet volutpat libero. Nulla sed nunc et tortor luctus faucibus. Morbi at
                             aliquet turpis, et consequat felis.</p>
                         <ul>
                             <li>
-                                <p class="contact__adress"></p>
+                                <span class="info__record info__record_adress">Elm St. 14/05 Lost City</span>
                             </li>
-                            <li><a class="contact__phone" href="./tel:035283318635">03528 331 86 35</a></li>
-                            <li><a class="contact__email" href="./mailto:info@singolo.com">info@singolo.com</a></li>
+                            <li><a class="info__record info__record_phone" href="./tel:035283318635">03528 331 86 35</a>
+                            </li>
+                            <li><a class="info__record info__record_email"
+                                    href="./mailto:info@singolo.com">info@singolo.com</a></li>
                         </ul>
                     </article>
                 </div>
@@ -257,9 +277,9 @@
         </section>
     </main>
     <footer class="site-footer">
-        <div class="container">
-            <div class="copyright">© Copyright 2013</div>
-            <div class="social">
+        <div class="container site-footer__container">
+            <div class="site-footer__copyright">© Copyright 2013</div>
+            <div class="site-footer__social social">
                 <ul>
                     <li><a class="social__link" href="./#"><i class="social__icon social__icon_facebook"></i></a></li>
                     <li><a class="social__link" href="./#"><i class="social__icon social__icon_google"></i></a></li>

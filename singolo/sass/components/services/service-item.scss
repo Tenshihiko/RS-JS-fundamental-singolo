@@ -1,39 +1,36 @@
 .service-item {
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    max-height: 150px;
-    min-width: 33%;
-    flex-basis: 33%;
     padding-left: 80px;
-    background-position: 5px 5px;
+    background-position: 5px 0px;
     background-repeat: no-repeat;
+    margin-bottom: 15px;
 
-    p {
+    &__description {
         max-height: 80px;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
-    &__design {
+    &_design {
         background-image: url(./assets/services_icons/services-item-1.svg);
     }
 
-    &__ideas {
+    &_ideas {
         background-image: url(./assets/services_icons/services-item-2.svg);
     }
 
-    &__love {
+    &_love {
         background-image: url(./assets/services_icons/services-item-3.svg);
     }
 
-    &__layout {
+    &_layout {
         background-image: url(./assets/services_icons/services-item-4.svg);
     }
 
-    &__support {
+    &_support {
         background-image: url(./assets/services_icons/services-item-5.svg);
     }
 
-    &__star {
+    &_star {
         background-image: url(./assets/services_icons/services-item-6.svg);
     }
 }
