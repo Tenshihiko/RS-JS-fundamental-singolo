@@ -1,8 +1,12 @@
 .employee-list {
     padding-top: 10px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 20px;
+
+    @media (max-width: 767px) {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
 }
 
 .employee {
@@ -11,7 +15,12 @@
     }
 
     &__name {
+        position: relative;
         padding-top: 15px;
+        padding-bottom: 2px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 
     &__social {

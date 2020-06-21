@@ -1,17 +1,12 @@
 .contact {
     &__content {
         padding-top: 20px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
 
-    &__form {
-        flex-basis: 66%;
-        padding-right: 20px;
-    }
-
-    &__info {
-        flex-basis: 33%;
+        @media (max-width: 767px) {
+            grid-template-columns: 1fr;
+        }
     }
 }

@@ -1,26 +1,15 @@
-article {
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        padding-top: 10px;
+.article {
+    &__header {
+        margin-bottom: 10px;
         font-weight: 900;
         font-size: 18px;
         line-height: 18px;
     }
 
-    p {
-        padding-top: 10px;
-        padding-bottom: 10px;
+    %__description {
+        margin-bottom: 10px;
         font-weight: 400;
         font-size: 12px;
         line-height: 22px;
-        overflow: hidden;
-        text-overflow: ellipsis;
     }
 }

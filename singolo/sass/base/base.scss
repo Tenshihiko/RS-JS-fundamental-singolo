@@ -11,10 +11,32 @@ html {
     margin: auto;
     height: 100%;
     padding: 0px 40px 0px 40px;
+
+    @media (max-width: 767px) {
+        padding: 0px 30px 0px 30px;
+    }
 }
 
 .visible-hidden {
     position: absolute;
     top: -200px;
     user-select: none;
+}
+
+header {
+    position: fixed;
+    z-index: 99999;
+    top: 0px;
+    width: 100%;
+    height: 95px;
+}
+
+main,
+footer {
+    position: relative;
+    top: 95px;
+}
+
+.anchored {
+    scroll-margin-top: 89px;
 }
