@@ -6,7 +6,7 @@
         cursor: pointer;
         display: inline-block;
         background-image: url(./assets/gallery/arrow-left.svg);
-        opacity: 0.2;
+        opacity: 0.5;
         background-position: center;
         background-repeat: no-repeat;
         position: absolute;
@@ -17,7 +17,7 @@
     }
 
     &__arrow:hover {
-        opacity: 0.35;
+        opacity: 1;
     }
 
     &__arrow-right {
