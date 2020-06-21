@@ -70,7 +70,10 @@ summary,
 time,
 mark,
 audio,
-video {
+video,
+input,
+textarea,
+button {
   margin: 0;
   padding: 0;
   border: 0;
@@ -324,7 +327,7 @@ article p {
   min-width: 33%;
   flex-basis: 33%;
   padding-left: 80px;
-  background-position: 5px 5px;
+  background-position: 10px 5px;
   background-repeat: no-repeat;
 }
 .service-item p {
@@ -419,6 +422,10 @@ article p {
   flex-basis: 33%;
 }
 
+.form {
+  position: relative;
+  width: 100%;
+}
 .form__input {
   display: block;
   width: 100%;
@@ -427,6 +434,7 @@ article p {
   background-color: #d6564f;
   padding: 12px 10px;
   margin-bottom: 15px;
+  font-size: 12px;
 }
 .form__input:focus {
   border-color: #ea676b;
@@ -452,6 +460,7 @@ article p {
 .form__btn_submit {
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 14px;
   border-color: #fbc65f;
   background-color: #fbc65f;
   color: #886a30;
@@ -461,10 +470,45 @@ article p {
   outline: none;
 }
 
+.info {
+  padding-top: 0px;
+}
+.info.article .article__header {
+  padding-top: 0px;
+}
+.info__record {
+  padding-left: 20px;
+  font-size: 12px;
+  line-height: 22px;
+  background-position: 0 center;
+  background-repeat: no-repeat;
+}
+.info__record_adress {
+  background-image: url(./assets/contacts/ico-location.svg);
+  background-position: 3px center;
+}
+.info__record_phone {
+  background-image: url(./assets/contacts/ico-phone.svg);
+}
+.info__record_email {
+  background-image: url(./assets/contacts/ico-mail.svg);
+}
+
 .site-footer {
   background-color: #2d303a;
   border-color: #323746;
   color: #767e9e;
+  height: 76px;
+}
+.site-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.site-footer__copyright {
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */
