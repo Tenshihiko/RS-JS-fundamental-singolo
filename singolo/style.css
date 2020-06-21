@@ -601,8 +601,8 @@ footer {
   .site-footer__copyright {
     display: none;
   }
-  .site-footer__social {
-    justify-self: center;
+  .site-footer__container {
+    justify-content: center;
   }
 }
 
