@@ -237,13 +237,17 @@
                     mollis, non commodo luctus,
                     nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo,
                     tortor mauris condimentum nibh.</p>
-                <div class="contact__content section__description">
-                    <form method="post" class="contact__form">
-                        <input type="text" name="name" placeholder="Name (required)" required />
-                        <input type="email" name="email" placeholder="Email (required)" required />
-                        <input type="text" name="subject" placeholder="Subject " />
-                        <textarea name="description" placeholder="Describe your project in detail..."></textarea>
-                        <button type="submit">Send</button>
+                <div class="contact__content">
+                    <form method="post" class="contact__form form">
+                        <input type="text" class="form__input form__input_oneline" name="name"
+                            placeholder="Name (required)" required />
+                        <input type="email" class="form__input form__input_oneline" name="email"
+                            placeholder="Email (required)" required />
+                        <input type="text" class="form__input form__input_oneline" name="subject"
+                            placeholder="Subject " />
+                        <textarea class="form__input form__input_multiline" name="description"
+                            placeholder="Describe your project in detail..."></textarea>
+                        <button class="form__btn form__btn_submit" type="submit">Send</button>
                     </form>
                     <article class="article contact__info">
                         <h3 class="article__header">Contact Information</h3>
@@ -253,10 +257,10 @@
                             aliquet turpis, et consequat felis.</p>
                         <ul>
                             <li>
-                                <p class="contact__adress"></p>
+                                <p class="info__record_adress">Elm St. 14/05 Lost City</p>
                             </li>
-                            <li><a class="contact__phone" href="./tel:035283318635">03528 331 86 35</a></li>
-                            <li><a class="contact__email" href="./mailto:info@singolo.com">info@singolo.com</a></li>
+                            <li><a class="info__record_phone" href="./tel:035283318635">03528 331 86 35</a></li>
+                            <li><a class="info__record_email" href="./mailto:info@singolo.com">info@singolo.com</a></li>
                         </ul>
                     </article>
                 </div>

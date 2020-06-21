@@ -405,6 +405,62 @@ article p {
   padding-top: 15px;
 }
 
+.contact__content {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.contact__form {
+  flex-basis: 66%;
+  padding-right: 20px;
+}
+.contact__info {
+  flex-basis: 33%;
+}
+
+.form__input {
+  display: block;
+  width: 100%;
+  border: #d6564f 2px solid;
+  border-radius: 5px;
+  background-color: #d6564f;
+  padding: 12px 10px;
+  margin-bottom: 15px;
+}
+.form__input:focus {
+  border-color: #ea676b;
+  outline: none;
+}
+.form__input:focus:invalid {
+  background-color: #ee4d44;
+}
+.form__input::placeholder {
+  color: #f48c8f;
+}
+.form__input_multiline {
+  height: 150px;
+  resize: none;
+}
+.form__btn {
+  cursor: pointer;
+  display: block;
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 12px 30px;
+}
+.form__btn_submit {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-color: #fbc65f;
+  background-color: #fbc65f;
+  color: #886a30;
+}
+.form__btn_submit:focus, .form__btn_submit:hover {
+  border-color: #ffc248;
+  outline: none;
+}
+
 .site-footer {
   background-color: #2d303a;
   border-color: #323746;
