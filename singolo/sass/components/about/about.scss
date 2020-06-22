@@ -7,6 +7,24 @@
     @media (max-width: 767px) {
         grid-template-columns: repeat(1, minmax(0, 1fr));
     }
+
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        display: -ms-flexbox;
+        -ms-flex-flow: row wrap;
+        -ms-flex-pack: justify;
+
+        .employee {
+            -ms-flex: 0 1 32%;
+            margin-bottom: 20px;
+        }
+    }
+
+    @media all and (max-width: 767px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        .employee {
+            -ms-flex: 0 1 100%;
+            margin-bottom: 20px;
+        }
+    }
 }
 
 .employee {

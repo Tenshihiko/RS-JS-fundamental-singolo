@@ -4,6 +4,7 @@
     text-align: justify;
 
     &__list {
+        position: relative;
         padding-top: 20px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -16,6 +17,28 @@
 
         @media (max-width: 767px) {
             grid-template-columns: repeat(1, 1fr);
+        }
+
+        @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+            display: -ms-flexbox;
+            -ms-flex-flow: row wrap;
+            -ms-flex-pack: justify;
+
+            .service-item {
+                -ms-flex: 0 1 23%;
+            }
+        }
+
+        @media all and (max-width: 1019px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+            .service-item {
+                -ms-flex: 0 1 35%;
+            }
+        }
+
+        @media all and (max-width: 767px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+            .service-item {
+                -ms-flex: 0 1 100%;
+            }
         }
     }
 }
