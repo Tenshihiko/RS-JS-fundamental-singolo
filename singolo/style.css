@@ -211,6 +211,13 @@ footer {
   font-size: 18px;
   line-height: 18px;
 }
+.article__description {
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+}
+
 .social ul li {
   display: inline-block;
 }
@@ -319,7 +326,7 @@ footer {
 
 .home {
   background-color: #f06c64;
-  border-bottom: #ea676b;
+  border-bottom-color: #ea676b;
 }
 
 .slider-gallery {
