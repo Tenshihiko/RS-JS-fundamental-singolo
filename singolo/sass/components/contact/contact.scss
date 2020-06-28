@@ -1,0 +1,34 @@
+.contact {
+    &__content {
+        padding-top: 20px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+
+        @media (max-width: 767px) {
+            grid-template-columns: 1fr;
+        }
+
+        @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+            display: -ms-flexbox;
+            -ms-flex-flow: row wrap;
+            -ms-flex-pack: justify;
+        }
+    }
+
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        &__form,
+        &__info {
+            -ms-flex: 0 1 48%;
+            margin-bottom: 20px;
+        }
+    }
+
+    @media all and (max-width: 767px) and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+        &__form,
+        &__info {
+            -ms-flex: 0 1 100%;
+            margin-bottom: 20px;
+        }
+    }
+}

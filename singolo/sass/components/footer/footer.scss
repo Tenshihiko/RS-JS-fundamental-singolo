@@ -1,0 +1,28 @@
+.site-footer {
+    background-color: $color-dark-background;
+    border-color: $color-dark-border;
+    color: $color-section-description;
+    height: 76px;
+
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__copyright {
+        font-weight: 900;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+    @media (max-width: 767px) {
+        &__copyright {
+            display: none;
+        }
+
+        &__container {
+            justify-content: center;
+        }
+    }
+}

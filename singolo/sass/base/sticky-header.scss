@@ -1,0 +1,32 @@
+header {
+    position: fixed;
+    z-index: 99999;
+    top: 0px;
+    width: 100%;
+    height: 95px;
+}
+
+main,
+footer {
+    position: relative;
+    top: 95px;
+}
+
+.anchored {
+    scroll-margin-top: 89px;
+}
+
+@media (max-width: 767px) {
+    header {
+        height: 71px;
+    }
+
+    main,
+    footer {
+        top: 71px;
+    }
+
+    .anchored {
+        scroll-margin-top: 71px;
+    }
+}

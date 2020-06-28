@@ -1,0 +1,36 @@
+.service-item {
+    padding-left: 80px;
+    background-position: 5px 0px;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+
+    &__description {
+        max-height: 80px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    &_design {
+        background-image: url(./assets/services_icons/services-item-1.svg);
+    }
+
+    &_ideas {
+        background-image: url(./assets/services_icons/services-item-2.svg);
+    }
+
+    &_love {
+        background-image: url(./assets/services_icons/services-item-3.svg);
+    }
+
+    &_layout {
+        background-image: url(./assets/services_icons/services-item-4.svg);
+    }
+
+    &_support {
+        background-image: url(./assets/services_icons/services-item-5.svg);
+    }
+
+    &_star {
+        background-image: url(./assets/services_icons/services-item-6.svg);
+    }
+}

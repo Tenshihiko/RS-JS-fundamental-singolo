@@ -1,0 +1,52 @@
+.slider-gallery {
+    max-height: 605px;
+    position: relative;
+
+    &__arrow {
+        cursor: pointer;
+        display: inline-block;
+        background-image: url(./assets/gallery/arrow-left.svg);
+        opacity: 0.5;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        z-index: 100;
+        width: 20px;
+    }
+
+    &__arrow:hover {
+        opacity: 1;
+    }
+
+    &__arrow-left {
+        @media (max-width: 767px) {
+            left: -15px;
+        }
+    }
+
+    &__arrow-right {
+        right: 0px;
+        transform: scale(-1, 1);
+        @media (max-width: 767px) {
+            right: -15px;
+        }
+    }
+
+    & ul li img {
+        max-width: 100%;
+        max-height: 500px;
+    }
+
+    &__slide {
+        display: none;
+
+        &_active {
+            width: 100%;
+            position: relative;
+            display: flex;
+            justify-content: space-around;
+        }
+    }
+}

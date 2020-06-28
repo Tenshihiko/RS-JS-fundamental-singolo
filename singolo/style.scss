@@ -1,0 +1,32 @@
+@import './assets/fonts/fonts.css';
+
+@import './sass/base/constants.scss';
+@import './sass/base/reset_css.scss';
+@import './sass/base/base.scss';
+@import './sass/base/sticky-header.scss';
+
+@import './sass/components/section.scss';
+@import './sass/components/article.scss';
+@import './sass/components/social.scss';
+
+@import './sass/components/header/header.scss';
+@import './sass/components/header/logo.scss';
+@import './sass/components/header/nav.scss';
+
+@import './sass/components/slider/home.scss';
+@import './sass/components/slider/slider-gallery.scss';
+@import './sass/components/slider/two-phones.scss';
+
+@import './sass/components/services/service-list.scss';
+@import './sass/components/services/service-item.scss';
+
+@import './sass/components/portfolio/portfolio.scss';
+@import './sass/components/portfolio/tags-list.scss';
+
+@import './sass/components/about/about.scss';
+
+@import './sass/components/contact/contact.scss';
+@import './sass/components/contact/form.scss';
+@import './sass/components/contact/info.scss';
+
+@import './sass/components/footer/footer.scss';
